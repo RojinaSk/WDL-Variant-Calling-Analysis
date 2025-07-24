@@ -1,0 +1,6 @@
+
+{
+  "VariantCallingWorkflow.reference": "Data/reference.fasta",
+  "VariantCallingWorkflow.fastq_1": "Data/fastq_1.gz",
+  "VariantCallingWorkflow.fastq_2": "Data/fastq_2.gz"
+}
