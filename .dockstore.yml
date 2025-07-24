@@ -1,0 +1,7 @@
+# .dockstore.yml
+version 1.2
+
+workflows:
+  - name: vc_main
+    subclass: WDL
+    primaryDescriptorPath: /workflows/vc_main.wdl
