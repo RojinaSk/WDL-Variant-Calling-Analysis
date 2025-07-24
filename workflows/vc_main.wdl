@@ -37,8 +37,10 @@ call Freebayes {
 }
 
 output {
+  File sorted_bam = SamtoolsSort.sorted.bam
+  File bai = SamtoolsIndex.bai
   File vcf = Freebayes.vcf
-}
+ }
 }
 
 
